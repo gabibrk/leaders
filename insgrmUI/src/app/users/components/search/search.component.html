@@ -1,0 +1,4 @@
+<div class="search-container">
+    <input #searchInput (keyup)="search(searchInput.value)">
+    <app-users-list [searchData]="searchResults" (searchSelectedEmitter)="setSelectUser($event)"></app-users-list>
+</div>

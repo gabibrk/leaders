@@ -1,0 +1,12 @@
+{
+  "/imgp": {
+    "target": "https://imgp.sptds.icu",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/cdninstagram": {
+    "target": "https://scontent-iad3-1.cdninstagram.com",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

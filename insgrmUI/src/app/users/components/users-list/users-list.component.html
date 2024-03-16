@@ -1,0 +1,17 @@
+<div *ngFor="let user of searchData">
+    <div class="user-section" (click)="selectUser(user)">
+        <div class="left-section">
+            <div class="user-img">
+                <img [src]="user.picture" class="userImgProfile">
+            </div>
+            <div class="user-name">
+                <span>@ {{user.username}}</span>
+                <span>{{user.fullname}}</span>
+            </div>
+        </div>
+        <div class="right-section">
+            <span class="followers">{{ user.followers | shortNumber }}</span>
+        </div>
+    </div>
+
+</div>

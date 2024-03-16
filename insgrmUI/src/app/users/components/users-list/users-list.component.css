@@ -1,0 +1,49 @@
+    :host {
+        min-height: 0rem;
+        z-index: 10;
+        position: absolute;
+        top: 3.125rem;
+        right: -7.8125rem;
+        max-height: 25rem;
+        width: 31.25rem;
+        border-radius: 5%;
+        border: 0;
+        background-color: white;
+        overflow-y: hidden;
+    }
+
+    .user-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        padding: 0 1.625rem 0 1.625rem;
+    }
+
+    .left-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .followers {
+        font-size: 1.375rem;
+        color: rgb(172, 171, 171);
+    }
+
+    .user-name {
+        margin-left: 0.625rem;
+        display: flex;
+        flex-direction: column;
+        color: rgb(122, 122, 122);
+        height: 3.5rem;
+        justify-content: space-around;
+    }
+
+
+    .userImgProfile {
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+    }

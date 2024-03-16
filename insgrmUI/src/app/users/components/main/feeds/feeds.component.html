@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="gallery">
+        <div *ngFor="let feed of feeds" class="gallery-image-box">
+            <div class="gallery-item">
+                <img [src]="feed.display_url"  class="gallery-image" alt="">
+                <div class="gallery-item-info">
+                    <ul>
+                        <li class="gallery-item-likes"><span class="visually-hidden white">&#10084;</span><i
+                                class="fas fa-heart" aria-hidden="true"></i> {{feed.like_count}}</li>
+                        <li class="gallery-item-comments"><span class="visually-hidden"><img class="icon-img" src="assets/icons/bubble.png"></span><i
+                                class="fas fa-comment" aria-hidden="true"></i> {{feed.comment_count}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
